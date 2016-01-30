@@ -18,7 +18,7 @@
 	[super viewDidLoad];
 	
 	NSString *myString = [[NSString alloc] init];
-
+	NSLog(@"%@", myString);
 }
 
 - (void)didReceiveMemoryWarning {
