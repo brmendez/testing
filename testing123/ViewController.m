@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
-	NSString *myString = [[NSString alloc] init];
-	NSLog(@"%@", myString);
+	NSString *yourString = [[NSString alloc] init];
+	NSLog(@"%@", yourString);
 }
 
 - (void)didReceiveMemoryWarning {
