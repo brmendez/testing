@@ -18,7 +18,7 @@
 	[super viewDidLoad];
 	
     
-    
+    //added a README
     
 
 	NSString *theString = [[NSString alloc] init];
