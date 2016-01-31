@@ -105,8 +105,8 @@
 			children = (
 				45605AD81C5D7A0C004439FB /* AppDelegate.h */,
 				45605AD91C5D7A0C004439FB /* AppDelegate.m */,
-				45605ADB1C5D7A0C004439FB /* ViewController.h */,
 				8BFA2E911C5D977A0038D055 /* NewViewController.swift */,
+				45605ADB1C5D7A0C004439FB /* ViewController.h */,
 				45605ADC1C5D7A0C004439FB /* ViewController.m */,
 				45605ADE1C5D7A0C004439FB /* Main.storyboard */,
 				45605AE11C5D7A0C004439FB /* Assets.xcassets */,
