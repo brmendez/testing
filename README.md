@@ -1,3 +1,2 @@
-# testing
-this is just a test
-# another test!
+# Git test
+A stress test to sharpen git skills.
