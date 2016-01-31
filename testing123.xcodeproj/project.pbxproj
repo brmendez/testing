@@ -15,6 +15,7 @@
 		45605AE51C5D7A0C004439FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45605AE31C5D7A0C004439FB /* LaunchScreen.storyboard */; };
 		45605AF01C5D7A0C004439FB /* testing123Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45605AEF1C5D7A0C004439FB /* testing123Tests.m */; };
 		45605AFB1C5D7A0C004439FB /* testing123UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45605AFA1C5D7A0C004439FB /* testing123UITests.m */; };
+		8BFA2E921C5D977A0038D055 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA2E911C5D977A0038D055 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		45605AF61C5D7A0C004439FB /* testing123UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testing123UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45605AFA1C5D7A0C004439FB /* testing123UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testing123UITests.m; sourceTree = "<group>"; };
 		45605AFC1C5D7A0C004439FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFA2E911C5D977A0038D055 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				45605AD81C5D7A0C004439FB /* AppDelegate.h */,
 				45605AD91C5D7A0C004439FB /* AppDelegate.m */,
 				45605ADB1C5D7A0C004439FB /* ViewController.h */,
+				8BFA2E911C5D977A0038D055 /* NewViewController.swift */,
 				45605ADC1C5D7A0C004439FB /* ViewController.m */,
 				45605ADE1C5D7A0C004439FB /* Main.storyboard */,
 				45605AE11C5D7A0C004439FB /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 				45605ADD1C5D7A0C004439FB /* ViewController.m in Sources */,
 				45605ADA1C5D7A0C004439FB /* AppDelegate.m in Sources */,
 				45605AD71C5D7A0C004439FB /* main.m in Sources */,
+				8BFA2E921C5D977A0038D055 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +417,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testing123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BrianMendez.testing123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testing123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BrianMendez.testing123;
@@ -498,6 +505,7 @@
 				45605B011C5D7A0C004439FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45605B021C5D7A0C004439FB /* Build configuration list for PBXNativeTarget "testing123Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +514,7 @@
 				45605B041C5D7A0C004439FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45605B051C5D7A0C004439FB /* Build configuration list for PBXNativeTarget "testing123UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +523,7 @@
 				45605B071C5D7A0C004439FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
