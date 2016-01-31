@@ -22,8 +22,8 @@
     //made from brianBranch
 	//another from brianBranch
 
-	NSString *theString = [[NSString alloc] init];
-	NSLog(@"%@", theString);
+	NSString *aString = [[NSString alloc] init];
+	NSLog(@"%@", aString);
 }
 
 - (void)didReceiveMemoryWarning {
