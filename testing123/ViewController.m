@@ -16,11 +16,6 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	
-    //re5
-    //added a README
-    //made from brianBranch
-	//another from brianBranch
 
 	NSString *newString = [[NSString alloc] init];
 	NSLog(@"%@", newString);
