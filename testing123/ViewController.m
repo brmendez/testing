@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
+	//added tableView with content -Brian
 	self.tableView.delegate = self;
 	self.tableView.dataSource = self;
 
