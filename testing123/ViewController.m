@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -16,10 +17,25 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+	
+	self.tableView.delegate = self;
+	self.tableView.dataSource = self;
 
 	NSString *newString = [[NSString alloc] init];
 	NSLog(@"%@", newString);
 }
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CELL" forIndexPath:indexPath];
+	cell.textLabel.text = @"Hello";
+	return cell;
+}
+
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
